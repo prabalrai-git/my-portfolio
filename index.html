@@ -3,26 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
+    <title>Prabal Rai | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Hello GitHub Pages 🚀</h1>
-        <p>This site is deployed automatically using GitHub Actions.</p>
 
-        <button onclick="showMessage()">
-            Click Me
-        </button>
-
-        <p id="message"></p>
+<header>
+    <div class="container nav">
+        <h2 class="logo">Prabal.dev</h2>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </div>
+</header>
 
-    <script>
-        function showMessage() {
-            document.getElementById("message").innerText =
-                "GitHub Actions deployment works!";
-        }
-    </script>
+<section class="hero">
+    <div class="container">
+        <h1>Hi, I'm Prabal Rai 👋</h1>
+        <p>Full Stack Developer | React Native | Node.js | Ruby</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>
+            I am a developer who enjoys building scalable web and mobile applications.
+            I work with React, React Native, Node.js, and Ruby on Rails. I love turning ideas into real products.
+        </p>
+    </div>
+</section>
+
+<section id="skills" class="section dark">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="grid">
+            <div class="card">React / React Native</div>
+            <div class="card">Node.js / Express</div>
+            <div class="card">Ruby on Rails</div>
+            <div class="card">MySQL / PostgreSQL</div>
+            <div class="card">Git / GitHub Actions</div>
+            <div class="card">REST APIs</div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <div class="container">
+        <h2>Projects</h2>
+
+        <div class="grid">
+            <div class="project">
+                <h3>AI OCR System</h3>
+                <p>Automated fax order processing system using AI OCR and workflow automation.</p>
+            </div>
+
+            <div class="project">
+                <h3>Artist Management System</h3>
+                <p>MERN-style system using Node.js + MySQL for managing artists and songs.</p>
+            </div>
+
+            <div class="project">
+                <h3>BabyBuy App</h3>
+                <p>Mobile app for listing and managing baby items with image upload and SMS sharing.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section dark">
+    <div class="container">
+        <h2>Contact</h2>
+        <p>Email: prabal@example.com</p>
+        <p>GitHub: github.com/prabalrai-git</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Prabal Rai. Built with HTML, CSS & GitHub Pages.</p>
+</footer>
+
 </body>
 </html>
